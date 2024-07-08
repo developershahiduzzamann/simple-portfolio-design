@@ -3,21 +3,28 @@
     margin: 0;
     padding: 0;
 }
-
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 0 10px;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-family: open sans;
     font-weight: 700;
     color: #ffff;
-    padding: 18px 35px;
+    padding: 10px 30px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 36px 200px;
+
+    
 }
 .nav-title{
     font-family: Open Sans;
@@ -44,6 +51,39 @@ nav li a{
     font-size: 20px;
     font-weight: 400;
     line-height: 17px;
+}
+.banner-subtitle{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.banner-discription{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 60px;
     letter-spacing: 0%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-image{
+    width: 580px;
+}
+.banner-content{
+    max-width: 580px;
+    margin-top: 100px;
 }
 
